@@ -1,0 +1,136 @@
+{
+  "rooms": [
+    {
+      "id": "101",
+      "number": "101",
+      "type": "Single",
+      "rate": 80,
+      "status": "Available"
+    },
+    {
+      "id": "102",
+      "number": "102",
+      "type": "Single",
+      "rate": 80,
+      "status": "Available"
+    },
+    {
+      "id": "103",
+      "number": "103",
+      "type": "Single",
+      "rate": 85,
+      "status": "Maintenance"
+    },
+    {
+      "id": "201",
+      "number": "201",
+      "type": "Double",
+      "rate": 120,
+      "status": "Occupied"
+    },
+    {
+      "id": "202",
+      "number": "202",
+      "type": "Double",
+      "rate": 120,
+      "status": "Available"
+    },
+    {
+      "id": "203",
+      "number": "203",
+      "type": "Double",
+      "rate": 125,
+      "status": "Occupied"
+    },
+    {
+      "id": "301",
+      "number": "301",
+      "type": "Deluxe",
+      "rate": 180,
+      "status": "Available"
+    },
+    {
+      "id": "302",
+      "number": "302",
+      "type": "Deluxe",
+      "rate": 180,
+      "status": "Occupied"
+    },
+    {
+      "id": "401",
+      "number": "401",
+      "type": "Suite",
+      "rate": 320,
+      "status": "Available"
+    },
+    {
+      "id": "402",
+      "number": "402",
+      "type": "Suite",
+      "rate": 350,
+      "status": "Available"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "b1",
+      "roomId": "201",
+      "guestName": "Alice Smith",
+      "guestEmail": "alice@gmail.com",
+      "guestPhone": "+1-555-0199",
+      "checkIn": "2026-07-07",
+      "checkOut": "2026-07-12",
+      "status": "CheckedIn",
+      "totalAmount": 600,
+      "createdAt": "2026-07-06"
+    },
+    {
+      "id": "b2",
+      "roomId": "203",
+      "guestName": "Bob Jones",
+      "guestEmail": "bob@jones.com",
+      "guestPhone": "+1-555-0234",
+      "checkIn": "2026-07-09",
+      "checkOut": "2026-07-14",
+      "status": "CheckedIn",
+      "totalAmount": 625,
+      "createdAt": "2026-07-08"
+    },
+    {
+      "id": "b3",
+      "roomId": "302",
+      "guestName": "Charlie Brown",
+      "guestEmail": "charlie@hq.com",
+      "guestPhone": "+1-555-9876",
+      "checkIn": "2026-07-05",
+      "checkOut": "2026-07-12",
+      "status": "CheckedIn",
+      "totalAmount": 1260,
+      "createdAt": "2026-07-04"
+    },
+    {
+      "id": "b4",
+      "roomId": "401",
+      "guestName": "Diana Prince",
+      "guestEmail": "diana@wonder.com",
+      "guestPhone": "+1-555-4321",
+      "checkIn": "2026-07-13",
+      "checkOut": "2026-07-18",
+      "status": "Confirmed",
+      "totalAmount": 1600,
+      "createdAt": "2026-07-09"
+    },
+    {
+      "id": "b_1783700509017",
+      "roomId": "102",
+      "guestName": "ddcd",
+      "guestEmail": "abc@gmail.com",
+      "guestPhone": "+9135366",
+      "checkIn": "2026-07-11",
+      "checkOut": "2026-07-12",
+      "status": "Confirmed",
+      "totalAmount": 80,
+      "createdAt": "2026-07-10"
+    }
+  ]
+}
